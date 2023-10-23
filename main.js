@@ -14,10 +14,13 @@ function goBtnClicked() {
   // Process Selection
   if (selection === "roll-once") {
     rollOnce();
+    msg.innerHTML = " ";
   } else if (selection === "roll-five") {
     roll5Times();
+    msg.innerHTML = " ";
   } else if (selection === "roll-n") {
     rollNTimes();
+    msg.innerHTML = " ";
   } else if (selection === "snake-eyes") {
     snakeEyes();
   }
